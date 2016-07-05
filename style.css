@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body {
+	color: black;
+	padding-left: 15%;
+	padding-top: 175px;
+	padding-right: 15%;
+	font-size: 20px;
+	background-color: white;
+	margin: 0px;
+}
+
+.large { 
+    width: 100%;
+	top: 60px;
+	left: 0px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-family: "Oswald";
+	position: fixed;
+	z-index: 148;
+	margin-bottom: 50px;
+}
+.cover {
+	padding-top: 280px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	background-color: white;
+	z-index: 149;
+}
+nav {
+	position: relative;
+	background-color: white;
+	height: -70px;
+	z-index: 150;
+	text-align: center;
+	font-family: "Oswald";
+}
+
+.fixed-nav {
+	background-color: white;
+  	position: fixed;
+ 	top: 0;
+  	z-index: 160;
+  	width: 70%;
+}
+.main {
+	position: relative;
+	background-color: white;
+	z-index: 153;
+	padding-bottom: 100px;
+}
+.main-scrolled {
+	top: 63px;
+}
+ul {
+    font-size: 18px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+.offset:before {
+	display: block;
+	content: ” “;
+	height: 150px;
+	margin-top: -150px;
+	visibility: hidden;
+}
+
+li a:hover {
+    background-color: #b3b3b3	;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+}
